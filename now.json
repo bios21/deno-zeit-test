@@ -1,7 +1,9 @@
 {
     "functions": {
-        "api/deno/**/*.ts": {
+        "api/**/*.ts": {
             "runtime": "now-deno@0.3.0"
         }
-    }
+    },
+    "regions": ["sfo"],
+    "public": true
 }
