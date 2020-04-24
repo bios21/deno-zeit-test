@@ -6,7 +6,7 @@ export async function handler(
 ): Promise<APIGatewayProxyResult> {
     return {
         statusCode: 200,
-        body: `Welcome to deno ${Deno.version.deno} 🦕`,
+        body: `Welcome ${event.resource} to deno ${Deno.version.deno} 🦕`,
         headers: {
             'content-type': 'text/html; charset=utf-8',
         },
